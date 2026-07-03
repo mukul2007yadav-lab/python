@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Snake water gun game</h1>
+    <div id="game-area">
+        <button onclick="play('S')">Snake</button>
+        <button onclick="play('W')">Water</button>
+        <button onclick="play('G')">Gun</button>
+    </div>
+    <p id="result"></p>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
