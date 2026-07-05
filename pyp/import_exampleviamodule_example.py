@@ -1,0 +1,1 @@
+from module_example import fun
